@@ -1,7 +1,7 @@
 
 //program to find the second smallest element in an array.
 
-public class AssignmentFirst {
+class AssignmentFirst {
 
     public static void main(String[] args) {
 
