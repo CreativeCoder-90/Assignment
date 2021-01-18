@@ -1,4 +1,4 @@
-
+package day1;
 //program to find the second smallest element in an array.
 
 class AssignmentFirst {
