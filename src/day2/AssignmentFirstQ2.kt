@@ -9,7 +9,7 @@ internal object AssignmentFirstQ2 {
         for (i in arr.indices) {
             for (j in i + 1 until arr.size) {
                 if (arr[i] + arr[j] == num) {
-                    println(arr[i].toString() + "," + arr[j])
+                    println("arr[i]" + "," + arr[j])
                 }
             }
         }
