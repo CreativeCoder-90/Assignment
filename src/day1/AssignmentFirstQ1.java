@@ -6,8 +6,8 @@ class AssignmentFirst {
     public static void main(String[] args) {
 
         int[] arr = {12,5,8,3,11,36};
-        int smallest = arr[arr.length-1];
-        int s_smallest = arr[arr.length-1];  // second smallest
+        int smallest = Integer.MAX_VALUE;
+        int s_smallest = Integer.MAX_VALUE;  // second smallest
 
         for(int i=0;i<arr.length;i++){
             if(arr[i]<smallest){
